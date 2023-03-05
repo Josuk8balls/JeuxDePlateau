@@ -1,0 +1,114 @@
+.hautDePage{
+    display: flex;
+}
+
+.hautDePage .afficheHaute {
+    width: 80em;
+}
+
+.hautDePage .afficheHaute img {
+    width: 100%;
+}
+
+.hautDePage .menuHaut {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+header {
+    background-color: rgb(215, 215, 215);
+    display: flex;
+    justify-content:space-between;
+    z-index: +1;
+}
+
+header img {
+    width: 10em;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+main .promotion {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .promotion .videoPromotion iframe{
+    width: 32em;
+    height: 18em;
+}
+
+main .promotion .explicationVideo {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+main .presentation {
+    display: flex;
+}
+
+main .presentation .regleDuJeux .row .col-4 {
+    overflow: auto;
+    width: 10em;
+    height: 50em;
+    text-align: center;
+}
+
+main .presentation .regleDuJeux .row .col-8 {
+    overflow: auto;
+    width: 50em;
+    height: 50em;
+}
+
+main .presentation .showCase .boite3D p {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+main .presentation .showCase .elements {
+    width: 40em;
+    z-index: -1;
+}
+
+main .presentation .showCase .elements .carousel .carousel-inner img{
+    width: 40em;
+    height: 50em;
+    z-index: -1;
+}
+
+main .gameplay {
+    display: flex;
+    width: 100em;
+}
+
+main .gameplay iframe {
+    width: 100%;
+}
+
+main .donation {
+    display: flex;
+    width: 100em;
+}
+
+main .donation .payer {
+    width: 100%;
+    height: 10em;
+}
+main .donation .payer button{
+    width: 100%;
+    height: 10em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    width: 10em;
+}
